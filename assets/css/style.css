@@ -346,6 +346,7 @@ a {
     padding: 22px;
     border-radius: 10px;
     background: var(--white-color);
+    transition: all linear 0.15s;
 }
 
 .services-item:hover {
@@ -369,6 +370,7 @@ a {
     justify-content: center;
     align-items: center;
     margin-right: 19px;
+    transition: all linear 0.15s;
 }
 
 .services-item__content {
