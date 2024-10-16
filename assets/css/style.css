@@ -547,6 +547,11 @@ img {
     text-align: center;
 }
 
+.member-item:hover .member-item__image {
+    transform: scale(1.1);
+    transition: all linear 0.25s;
+}
+
 .member-item__image-bg {
     padding-top: 28px;
     border-radius: 6px;
