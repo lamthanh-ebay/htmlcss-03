@@ -429,7 +429,7 @@ img {
 
 .work-item:hover {
     transform: translateY(-16px);
-    border-color: #2e80ce;
+    border-color: var(--primary-color);
 }
 
 .work-item:hover .work-item__more {
@@ -609,4 +609,56 @@ img {
 
 .member-control_btn:last-child .member-control__btn-icon {
     rotate: 180deg;
+}
+
+/* Install */
+.install {
+    padding: 85px 0;
+}
+
+.install-wrap {
+    margin-top: 95px;
+    border-radius: 4px;
+    background: var(--primary-color);
+    padding: 0 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.install-image {
+}
+
+.install-image__img {
+    width: 284px;
+    height: 522px;
+    object-fit: cover;
+    margin-top: -95px;
+    vertical-align: bottom;
+}
+
+.install-content {
+    max-width: 586px;
+}
+
+.install .install-content__heading {
+    max-width: 489px;
+    color: var(--text-color-2);
+}
+
+.install-content__desc {
+    margin-top: 18px;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.66;
+    color: var(--text-color-2);
+}
+
+.install-content__app-download {
+    margin-top: 38px;
+    display: flex;
+    column-gap: 28px;
+}
+
+.install-content__app-img {
 }
