@@ -428,6 +428,10 @@ a {
     border-color: #2e80ce;
 }
 
+.work-item:hover .work-item__more {
+    text-shadow: 1px 0 0 currentColor;
+}
+
 .work-item__icon {
     width: 72px;
     height: 72px;
