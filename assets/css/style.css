@@ -33,6 +33,10 @@ a {
     text-decoration: none;
 }
 
+img {
+    vertical-align: bottom;
+}
+
 .heading {
     font-family: Sora;
 }
@@ -458,4 +462,58 @@ a {
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.75;
+}
+
+/* Future */
+.future {
+    padding: 170px 0 85px;
+}
+
+.future-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.future-media {
+    width: 49%;
+    position: relative;
+    padding-bottom: 121px;
+    padding-right: 58px;
+}
+
+.future-image {
+    width: 512px;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.07);
+}
+
+.future-image:last-child {
+    width: 332px;
+    height: 370px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    box-shadow: none;
+}
+
+.future-content {
+    width: 40%;
+}
+
+.future__heading {
+}
+
+.future__desc {
+    margin-top: 18px;
+    color: var(--text-color-1);
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.66;
+}
+
+.future__action {
+    margin-top: 38px;
 }
