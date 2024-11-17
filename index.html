@@ -35,6 +35,9 @@
         <link rel="stylesheet" href="./assets/css/reset.css" />
         <!-- Style CSS -->
         <link rel="stylesheet" href="./assets/css/style.css" />
+
+        <!-- Animation -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body>
         <!-- Header -->
@@ -86,7 +89,7 @@
                 <div class="container">
                     <div class="hero__wrap">
                         <!-- Hero content -->
-                        <div class="hero__content">
+                        <div class="hero__content" data-aos="zoom-out">
                             <h1 class="hero__heading heading lv1">Exceptional dental care for all ages.</h1>
                             <p class="hero__desc">
                                 Exceptional dental care for all ages. Your great smile begins with a great dentist.
@@ -97,7 +100,7 @@
                             </div>
                         </div>
                         <!-- hero media -->
-                        <div class="hero__media">
+                        <div class="hero__media" data-aos="zoom-out">
                             <figure class="hero__image">
                                 <img
                                     src="./assets/img/hero-1.avif"
@@ -115,13 +118,13 @@
             <section class="services">
                 <div class="container">
                     <div class="services-wrap">
-                        <h2 class="heading lv2 services__heading">Our services</h2>
-                        <p class="services__desc">
+                        <h2 class="heading lv2 services__heading" data-aos="fade-up">Our services</h2>
+                        <p class="services__desc" data-aos="fade-up">
                             Exceptional dental care for all ages. Your great smile begins with a great dentist.
                         </p>
 
                         <div class="services-row">
-                            <div class="services__media">
+                            <div class="services__media" data-aos="fade-up">
                                 <figure>
                                     <img
                                         src="./assets/img/services-01.avif"
@@ -133,7 +136,7 @@
                             <div class="services__content">
                                 <div class="services-list">
                                     <!-- Services item 1 -->
-                                    <section class="services-item">
+                                    <section class="services-item" data-aos="fade-up">
                                         <div class="services-item__icon">
                                             <svg
                                                 width="22"
@@ -157,7 +160,7 @@
                                     </section>
 
                                     <!-- Services item 2 -->
-                                    <section class="services-item">
+                                    <section class="services-item" data-aos="fade-up">
                                         <div class="services-item__icon">
                                             <svg
                                                 width="22"
@@ -181,7 +184,7 @@
                                     </section>
 
                                     <!-- Services item 3 -->
-                                    <section class="services-item">
+                                    <section class="services-item" data-aos="fade-up">
                                         <div class="services-item__icon">
                                             <svg
                                                 width="22"
@@ -204,7 +207,7 @@
                                         </div>
                                     </section>
                                 </div>
-                                <a href="#!" class="btn">All Services</a>
+                                <a href="#!" class="btn" data-aos="fade-up">All Services</a>
                             </div>
                         </div>
                     </div>
@@ -215,13 +218,13 @@
             <section class="work">
                 <div class="container">
                     <div class="work-wrap">
-                        <h2 class="work__heading heading lv2">How it works</h2>
-                        <p class="work__desc">
+                        <h2 class="work__heading heading lv2" data-aos="fade-up">How it works</h2>
+                        <p class="work__desc" data-aos="fade-up">
                             Exceptional dental care for all ages. Your great smile begins with a great dentist.
                         </p>
                         <div class="work-list">
                             <!-- Work item 1 -->
-                            <section class="work-item">
+                            <section class="work-item" data-aos="fade-right">
                                 <img
                                     src="./assets/icons/work-item-icon-1.svg"
                                     alt="Search doctor"
@@ -235,7 +238,7 @@
                             </section>
 
                             <!-- Work item 2 -->
-                            <section class="work-item">
+                            <section class="work-item" data-aos="zoom-in">
                                 <img
                                     src="./assets/icons/work-item-icon-2.svg"
                                     alt="Find best doctor"
@@ -251,7 +254,7 @@
                             </section>
 
                             <!-- Work item 3 -->
-                            <section class="work-item">
+                            <section class="work-item" data-aos="fade-left">
                                 <img
                                     src="./assets/icons/work-item-icon-3.svg"
                                     alt="Get treatment"
@@ -277,16 +280,24 @@
                                 src="./assets/img/future-image-1.avif"
                                 alt="Take back your smile with shine."
                                 class="future-image"
+                                data-aos="fade-up"
                             />
-                            <img src="./assets/img/future-image-2.avif" alt="" class="future-image" />
+                            <img
+                                src="./assets/img/future-image-2.avif"
+                                alt=""
+                                class="future-image"
+                                data-aos="fade-up"
+                            />
                         </div>
                         <section class="future-content">
-                            <h2 class="future__heading heading lv2">Take back your smile with shine.</h2>
-                            <p class="future__desc">
+                            <h2 class="future__heading heading lv2" data-aos="fade-up">
+                                Take back your smile with shine.
+                            </h2>
+                            <p class="future__desc" data-aos="fade-up">
                                 If you’re missing multiple teeth due to decay, injury, or the natural aging process,
                                 dentures might be the perfect solution.
                             </p>
-                            <a href="" class="future__action btn">Learn More</a>
+                            <a href="" class="future__action btn" data-aos="fade-up">Learn More</a>
                         </section>
                     </div>
                 </div>
@@ -296,13 +307,13 @@
             <section class="member">
                 <div class="container">
                     <div class="member-wrap">
-                        <h2 class="member__heading heading lv2">Our virtual dentist</h2>
-                        <a href="" class="member__cta btn">Meet our dentist</a>
+                        <h2 class="member__heading heading lv2" data-aos="fade-up">Our virtual dentist</h2>
+                        <a href="" class="member__cta btn" data-aos="fade-up">Meet our dentist</a>
 
                         <!-- Member list -->
                         <div class="member-list">
                             <!-- Member item 1 -->
-                            <article class="member-item">
+                            <article class="member-item" data-aos="fade-up">
                                 <figure class="member-item__image-bg">
                                     <img src="./assets/img/member-1.png" alt="" class="member-item__image" />
                                 </figure>
@@ -311,7 +322,7 @@
                             </article>
 
                             <!-- Member item 2 -->
-                            <article class="member-item">
+                            <article class="member-item" data-aos="fade-up">
                                 <figure class="member-item__image-bg">
                                     <img src="./assets/img/member-2.png" alt="" class="member-item__image" />
                                 </figure>
@@ -320,7 +331,7 @@
                             </article>
 
                             <!-- Member item 3 -->
-                            <article class="member-item">
+                            <article class="member-item" data-aos="fade-up">
                                 <figure class="member-item__image-bg">
                                     <img src="./assets/img/member-3.png" alt="" class="member-item__image" />
                                 </figure>
@@ -329,7 +340,7 @@
                             </article>
 
                             <!-- Member item 4 -->
-                            <article class="member-item">
+                            <article class="member-item" data-aos="fade-up">
                                 <figure class="member-item__image-bg">
                                     <img src="./assets/img/member-4.png" alt="" class="member-item__image" />
                                 </figure>
@@ -339,7 +350,7 @@
                         </div>
 
                         <!-- Control -->
-                        <div class="member-control control">
+                        <div class="member-control control" data-aos="fade-up">
                             <button class="control_btn">
                                 <svg
                                     class="control__btn-icon"
@@ -382,7 +393,7 @@
             <!-- Install -->
             <section class="install">
                 <div class="container">
-                    <div class="install-wrap">
+                    <div class="install-wrap" data-aos="fade-up">
                         <figure class="install-image">
                             <img
                                 src="./assets/img/install-image.png"
@@ -424,7 +435,7 @@
                 <div class="container">
                     <div class="new-wrap">
                         <!-- New head -->
-                        <div class="new__head">
+                        <div class="new__head" data-aos="fade-up">
                             <h2 class="new__heading heading lv2">Read Latest News & Events.</h2>
                             <a href="#!" class="new__more">Read All Blog</a>
 
@@ -470,7 +481,7 @@
                         <!-- New body -->
                         <div class="new__body">
                             <!-- New item 1 -->
-                            <article class="new-item">
+                            <article class="new-item" data-aos="fade-up">
                                 <a href="#!">
                                     <figure class="new-item__image">
                                         <img
@@ -495,7 +506,7 @@
                             </article>
 
                             <!-- New item 2 -->
-                            <article class="new-item">
+                            <article class="new-item" data-aos="fade-up">
                                 <a href="#!">
                                     <figure class="new-item__image">
                                         <img
@@ -526,13 +537,15 @@
             <!-- Appointment -->
             <section class="appointment">
                 <div class="container">
-                    <div class="appointment-wrap">
-                        <h2 class="appointment__heading heading lv2">Always welcoming new patients</h2>
-                        <p class="appointment__desc">
+                    <div class="appointment-wrap" data-aos="fade-up">
+                        <h2 class="appointment__heading heading lv2" data-aos="fade-up">
+                            Always welcoming new patients
+                        </h2>
+                        <p class="appointment__desc" data-aos="fade-up">
                             Take control of your dental health and get the personalized care you deserve. Call (541)
                             772-8846 to schedule
                         </p>
-                        <a href="#!" class="appointment__btn btn">Appointment</a>
+                        <a href="#!" class="appointment__btn btn" data-aos="fade-up">Appointment</a>
                     </div>
                 </div>
             </section>
@@ -687,5 +700,12 @@
                 </div>
             </div>
         </footer>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 1000,
+                anchorPlacement: "top-bottom",
+            });
+        </script>
     </body>
 </html>
